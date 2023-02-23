@@ -8,6 +8,7 @@ The application allows you to create an account and manage your expenses and inc
 ## Backend
 
 - MongoDB Atlas
+- API Routes
 
 ## Frontend
 
