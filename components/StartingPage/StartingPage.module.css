@@ -1,0 +1,51 @@
+.wrapper {
+	height: 92vh;
+	position: relative;
+	padding: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	letter-spacing: 0.5;
+}
+
+.wrapper span {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #3f37c9;
+}
+
+.wrapper p {
+	font-size: 3rem;
+	font-weight: 300;
+}
+
+.link {
+	position: absolute;
+	bottom: 0.5em;
+	background-color: #560bad;
+	color: white;
+	font-size: 2rem;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	border-radius: 500px;
+	font-weight: 700;
+	padding: 0.5em 1.5em;
+	transition: 0.5s;
+}
+
+.link:hover {
+	background: #4361ee;
+}
+
+@media (min-width: 768px) {
+	.wrapper {
+		max-width: 1200px;
+		margin: 0 auto;
+		flex-direction: row;
+	}
+
+	.link {
+		bottom: 4em;
+	}
+}

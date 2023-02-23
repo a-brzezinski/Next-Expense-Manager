@@ -1,0 +1,84 @@
+.wrapper {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 1em;
+	width: 80%;
+	border-radius: 8px;
+	box-shadow: 8px 8px 24px -13px rgba(66, 68, 90, 1);
+}
+
+.form {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form h3 {
+	font-size: 2.5rem;
+	color: #4361ee;
+}
+
+.box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1em;
+}
+
+.box label {
+	font-size: 2rem;
+}
+
+.box input {
+	padding: 0.5em;
+	border-radius: 8px;
+}
+
+.select {
+	font-size: 2rem;
+	border: 1px solid gray;
+	border-radius: 8px;
+	padding: 0.5em;
+}
+
+.buttons {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	padding: 1em;
+}
+
+.buttons button {
+	font-size: 2rem;
+	padding: 0.5em 1em;
+	cursor: pointer;
+	font-size: 2rem;
+	padding: 0.5em;
+	border-radius: 8px;
+	border: none;
+	color: white;
+	letter-spacing: 1px;
+	background-color: #4361ee;
+	cursor: pointer;
+}
+
+.cancelBtn {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0.3em;
+	background-color: tomato;
+	color: white;
+	font-size: 2rem;
+	border: none;
+	border-bottom-left-radius: 8px;
+	cursor: pointer;
+	transition: background-color 0.3s;
+}
+
+.cancelBtn:hover {
+	background-color: rgb(205, 84, 62);
+}

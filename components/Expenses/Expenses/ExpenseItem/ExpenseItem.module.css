@@ -1,0 +1,36 @@
+.item {
+	width: 90%;
+	margin-top: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	font-size: 2rem;
+	padding: 0.5em;
+	border-radius: 8px;
+	box-shadow: 8px 8px 24px -13px rgba(66, 68, 90, 1);
+}
+
+.item div {
+	display: flex;
+	align-items: center;
+}
+.item div p {
+	padding: 0.2em;
+}
+
+.date {
+	color: gray;
+}
+
+.title {
+	color: blueviolet;
+}
+
+.income {
+	color: rgb(67, 192, 67);
+}
+
+.expense {
+	color: tomato;
+}
