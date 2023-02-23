@@ -1,3 +1,31 @@
+# Next Expense Manager
+
+The application allows you to create an account and manage your expenses and income. It uses MongoDB Atlas for backend & Next.js for frontend.
+
+
+## Stack
+
+## Backend
+
+- MongoDB Atlas
+
+## Frontend
+
+- Next.js
+- CSS Modules
+
+
+## Tools
+
+- next-auth
+- bcryptjs
+- Redux Toolkit
+
+## Upcoming changes
+
+- Automatic rendering of the expense list when added. Currently need to refresh the page.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
