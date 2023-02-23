@@ -25,6 +25,8 @@ The application allows you to create an account and manage your expenses and inc
 
 - Automatic rendering of the expense list when added. Currently need to refresh the page.
 
+-------------
+
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
